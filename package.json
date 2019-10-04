@@ -1,0 +1,26 @@
+{
+  "name": "response-lib",
+  "version": "1.0.0",
+  "description": "Lib for sending correct response to client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyber-eternal/response-lib.git"
+  },
+  "keywords": [
+    "response",
+    "lib",
+    "http",
+    "client",
+    "server"
+  ],
+  "author": "Edgar Sargsyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyber-eternal/response-lib/issues"
+  },
+  "homepage": "https://github.com/cyber-eternal/response-lib#readme"
+}

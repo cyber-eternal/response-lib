@@ -1,0 +1,1 @@
+var success=(a,b=200)=>buildResponse(b,a),failure=(a,b=409)=>buildResponse(b,a),buildResponse=(a,b,c)=>{const d={statusCode:a,headers:{"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":!0,"Content-Type":"application/json",...c},body:JSON.stringify(b)};return d};module.exports={success,failure};
