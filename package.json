@@ -1,6 +1,6 @@
 {
   "name": "response-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Lib for sending correct response to client",
   "main": "index.js",
   "scripts": {
