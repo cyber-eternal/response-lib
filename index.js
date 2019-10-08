@@ -28,7 +28,7 @@ var buildResponse = (statusCode, body, headers = {}) => {
 //   return buildResponse(statusCode, response, contentType, location);
 // };
 
-// varimageBuffer = (statusCode, imageBuffer) => {
+// var imageBuffer = (statusCode, imageBuffer) => {
 //   return {
 //     statusCode,
 //     headers: {
