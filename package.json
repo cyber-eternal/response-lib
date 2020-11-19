@@ -1,8 +1,11 @@
 {
-  "name": "response-lib",
+  "name": "@cyber-eternal/response-lib",
   "version": "1.0.2",
   "description": "Lib for sending correct response to client",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
