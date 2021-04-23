@@ -1,6 +1,6 @@
 {
   "name": "@cyber-eternal/response-lib",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Lib for sending correct response to client",
   "author": "Cyber-Eternal",
   "license": "ISC",
@@ -9,8 +9,10 @@
   },
   "homepage": "https://github.com/cyber-eternal/response-lib#readme",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyber-eternal/response-lib.git"
+    "url": "https://github.com/cyber-eternal/response-lib"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "response",
@@ -19,9 +21,6 @@
     "client",
     "server"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -43,5 +42,6 @@
   },
   "files": [
     "lib /**/*"
-  ]
+  ],
+  "dependencies": {}
 }
