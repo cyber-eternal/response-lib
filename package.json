@@ -1,5 +1,5 @@
 {
-  "name": "@cyber-eternal/response-lib",
+  "name": "response-lib",
   "version": "1.1.0",
   "description": "Lib for sending correct response to client",
   "author": "Cyber-Eternal",
@@ -20,7 +20,7 @@
     "server"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@cyber-eternal"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -30,7 +30,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
+    "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
