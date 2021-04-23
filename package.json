@@ -1,6 +1,6 @@
 {
-  "name": "response-lib",
-  "version": "1.1.0",
+  "name": "@cyber-eternal/response-lib",
+  "version": "1.1.1",
   "description": "Lib for sending correct response to client",
   "author": "Cyber-Eternal",
   "license": "ISC",
@@ -19,9 +19,6 @@
     "client",
     "server"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@cyber-eternal"
-  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
