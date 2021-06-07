@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "pretty": true,
     "declaration": true,
-    "outDir": "./lib",
-    "strict": true
+    "outDir": "./dist",
   },
-  "include": [
-    "src"
-  ],
   "exclude": [
-    "node_modules",
-    "**/__tests__/*"
+    "**/*.spec.*",
+    "**/*.test.*"
   ]
 }
