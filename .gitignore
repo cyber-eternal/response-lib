@@ -63,3 +63,5 @@ typings/
 ind.js
 
 /lib
+
+/dist
