@@ -4,7 +4,6 @@ export const createSuccessResponse = (response, code = 200, data = {}) => respon
     data,
 });
 export const createFailResponse = (response, code = 400, message = 'Bad Request', data = {}, error = {}, returnErrorBody = false) => {
-    console.error(message, { err: error });
     response.status(code).json({
         status: 'fail',
         message,
@@ -13,14 +12,12 @@ export const createFailResponse = (response, code = 400, message = 'Bad Request'
     });
 };
 export const createUnauthorizedResponse = (response, error = {}, message = 'Unauthorized', code = 401) => {
-    console.error(message, { err: error });
     response.status(code).json({
         status: 'fail',
         message,
     });
 };
 export const createAccessDeniedResponse = (response, error = {}, message = 'Do Not Have Permission', code = 403, returnErrorBody = false) => {
-    console.error(message, { err: error });
     response.status(code).json({
         status: 'fail',
         message,
@@ -28,7 +25,6 @@ export const createAccessDeniedResponse = (response, error = {}, message = 'Do N
     });
 };
 export const createErrorResponse = (response, code = 500, message = 'Internal Server Error', error = {}, returnErrorBody = false) => {
-    console.error(message, { err: error });
     response.status(code).json({
         status: 'error',
         message,
